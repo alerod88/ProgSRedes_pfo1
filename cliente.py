@@ -24,7 +24,7 @@ def iniciar_cliente():
                 s.sendall(mensaje.encode("utf-8"))
 
                 # Si el usuario escribe éxito, finaliza sin esperar confirmación
-                if mensaje.lower() == "éxito" or mensaje.lower() == "fin":
+                if mensaje.lower() == "éxito" or mensaje.lower() == "exito":
                     print("Sesión cerrada con éxito.")
                     break
 

@@ -65,7 +65,7 @@ def manejar_cliente(conn, addr):
                 mensaje = data.decode("utf-8").strip()
                 
                 # Cierre de sesión solicitado por el cliente
-                if mensaje.lower() == "fin" or mensaje.lower() == "FIN":
+                if mensaje.lower() == "éxito" or mensaje.lower() == "exito":
                     print(f"[-] El cliente {addr} finalizó la sesión.")
                     break
 
